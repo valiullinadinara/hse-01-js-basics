@@ -1,0 +1,27 @@
+let nachalo = "Жили у бабуси два веселых гуся'
+//let nachalo = "Жили у бабуси два веселых гуся" скобки
+let $end = "...один серый другой белый – два веселых гуся"
+
+let 1text = nachalo
+//let text = nachalo - транслитом нельзя, с цифры не начинается
+
+if (1text === nachalo) {
+Alert($end)
+//alert($end) все начинается с маленькой буквы
+} else {
+alert(начало)
+//alert("начало") все в скобках
+}
+let discountcode = 985
+//let discountCode = 985
+let simpsons'BestEpisode = Broken Secret
+//let simpsonsBestEpisode = "Broken Secret"
+let coffee-price = 149.99
+//let coffeePrice = 149.99 не может быть дефиса: либо нижнее подчеркивание, либо с большой буквы
+
+if (coffee-price <= 250) {
+//if (coffeePrice <= 250) {
+alert("Беру!")
+} else {
+alert("Вот купон на скидку: " + discountCode)
+}
